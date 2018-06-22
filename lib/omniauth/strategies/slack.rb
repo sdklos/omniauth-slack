@@ -10,7 +10,7 @@ module OmniAuth
       option :authorize_options, [:scope, :team]
 
       option :client_options, {
-        site: 'https://slack.com',
+        site: 'https://progcode.slack.com',
         token_url: '/api/oauth.access'
       }
 
